@@ -1,14 +1,29 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     int pass;
-    while(scanf("%d", &pass)){
-        if(pass == 1999){
+    // while(scanf("%d", &pass)){
+    //     if(pass == 1999){
+    //         printf("Correct\n");
+    //         break;
+    //     }else{
+    //         printf("Wrong\n");
+    //     }
+    // }
+
+    for (; scanf("%d", &pass);)
+    {
+        if (pass == 1999)
+        {
             printf("Correct\n");
             break;
-        }else{
+        }
+        else
+        {
             printf("Wrong\n");
         }
     }
+
     return 0;
 }
