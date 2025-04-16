@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Fail test case, need to resolve the problem
+// Fail test case, need to resolve the problem - wrong output
 int main()
 {
     int A, B;
